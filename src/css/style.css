@@ -4,6 +4,7 @@ body{
     background-color: var(--background-color);
     height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
 }
 
 hr{
@@ -49,16 +50,18 @@ hr{
     align-items: center;
     justify-content: space-evenly;
     width: 100%;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     text-align: center;
+}
+
+.profile .info .counter, 
+.card .profile-informations p{
+    font-weight: 700;
 }
 
 .card .profile-informations .age,
 .card .profile-informations .city, 
-.card .profile-stats .followers, 
-.card .profile-stats .likes,
-.card .profile-stats .photos {
-    font-size: 18px;
+.profile .info .counter-type{
     color: var(--text-color);
 }
 
