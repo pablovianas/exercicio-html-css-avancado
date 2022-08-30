@@ -45,7 +45,7 @@ hr{
     margin-top: 20px;
 }
 
-.card .profile{
+.card .profile-numbers{
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -54,14 +54,14 @@ hr{
     text-align: center;
 }
 
-.profile .info .counter, 
+.profile-numbers .info .counter, 
 .card .profile-informations p{
     font-weight: 700;
 }
 
 .card .profile-informations .age,
 .card .profile-informations .city, 
-.profile .info .counter-type{
+.profile-numbers .info .counter-type{
     color: var(--text-color);
 }
 
